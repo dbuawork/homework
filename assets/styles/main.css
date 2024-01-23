@@ -88,7 +88,6 @@ body{
 }
 
 .footer{
-    display: flex;
     background-color:#19191C;
     padding-top: 68px;
     padding-left: 240px;
@@ -120,7 +119,7 @@ body{
     
 }
 .sitemap{
-    display: block;
+
 }
 .sitemap__title{
     color: #FBFBFC;
@@ -146,8 +145,7 @@ body{
     line-height: 28px;
 }
 .copyright{
-    display: flex;
-    align-items: flex-end;
+
 }
 .copy__footer{
     color: #6D6D77;
