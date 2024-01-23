@@ -7,40 +7,46 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">
-            <img src="assets/img/logo.svg" alt="logo">
-            UpDate
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Courses</a>
-                </li>
-                <li>
-                    <a href="#">Teachers</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-            </ul>
-            <a href="#">
+    <header class="container header">
+        <div class="header__box">
+            <a class="logo" href="index.html">
+                <img src="assets/img/logo.svg" alt="logo">
+                UpDate
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li>
+                        <a class="link" href="#">Courses</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#">Teachers</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="btn-box">
+            <a class="header__link" href="#">
                 En
             </a>
-            <a href="#">
+            <a class="header__link" href="#">
                 Sign In
             </a>
-            <a href="">
+            <a class="header__btn" href="#">
                 Trial free
             </a>
-        </nav>
+        </div>
+        
     </header>
     <main>
-        <section class="offer">
+        <section class="offer container">
+            <div class="offer__holder">
             <p class="offer__date">
                 <b>6 months</b>
             </p>
-            <h1 class="offer__title">
+            <h1 class="offer__title" id="heading">
                 UI/UX designer
             </h1>
             <p class="offer__description">
@@ -58,7 +64,7 @@
                     24 days 17:44:16
                 </time>
             </p>
-
+        </div>
             <ul class="offer__list">
                 <li>InVision</li>
                 <li>ProtoPie</li>
@@ -67,8 +73,8 @@
                 <li>Figma</li>
                 <li>Illustrator</li>
             </ul>
-            <img src="assets/img/rectangle-7.png" alt="rectangle-7">
-            <img src="assets/img/person-2.png" alt="person-women">
+            <!-- <img src="assets/img/rectangle-7.png" alt="rectangle-7">
+            <img src="assets/img/person-2.png" alt="person-women"> -->
         </section>
          <section class="designer__info">
             <div class="designer-info__text">
