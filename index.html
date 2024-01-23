@@ -5,43 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/main.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">
-            <img src="assets/img/logo.svg" alt="logo">
-            UpDate
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Courses</a>
-                </li>
-                <li>
-                    <a href="#">Teachers</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-            </ul>
-            <a href="#">
+    <header class="container header">
+        <div class="header__box">
+            <a class="logo" href="index.html">
+                <img src="assets/img/logo.svg" alt="logo">
+                UpDate
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li>
+                        <a class="link" href="#">Courses</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#">Teachers</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="btn-box">
+            <a class="header__link" href="#">
                 En
             </a>
-            <a href="#">
+            <a class="header__link" href="#">
                 Sign In
             </a>
-            <a href="">
+            <a class="header__btn" href="#">
                 Trial free
             </a>
-        </nav>
+        </div>
+        
     </header>
     <main>
-        <section class="offer">
-            <h1 class="offer__title">
+        <section class="offer container">
+           <div class="offer__holder">
+            <h1 class="offer__title" id="heading">
                 Explore thousands of hands-on creative classes.
             </h1>
             <p class="offer__description">
@@ -58,6 +64,7 @@
                     24 days 17:44:16
                 </time>
             </p>
+           </div>
 
             <ul class="offer__list">
                 <li>Marketer</li>
@@ -67,8 +74,8 @@
                 <li>Designer</li>
                 <li>Photographer</li>
             </ul>
-            <img src="assets/img/rectangle-7.jpg" alt="rectangle-7">
-            <img src="assets/img/person-1.png" alt="person-men">
+            <!-- <img src="assets/img/rectangle-7.png" alt="rectangle-7">
+            <img src="assets/img/person-1.png" alt="person-men"> -->
         </section>
         <section class="learn">
             <div class="learn__text">
@@ -201,37 +208,40 @@
             </form>
         </section>
     </main>
-    <footer>
+    <footer class="container footer">
         <div>
-            <a href="index.html">
-                <img src="assets/img/logo.svg" alt="logo">
+            <a class="logo__footer" href="index.html">
+                <img src="assets/img/logo_footer.svg" alt="logo">
                 UpDate
             </a>
-            <a href="mailto:">support@update.com</a>
-            <a href="tel:12136771024">+1 (213) 677 10 24</a>
+        <div class="contact__footer__block">
+            <a class="contact__footer" href="mailto:">support@update.com</a>
+            <a class="contact__footer" href="tel:12136771024">+1 (213) 677 10 24</a>
         </div>
+    </div>
+        
         <div class="sitemap">
             <h6 class="sitemap__title">
                 Courses
             </h6>
             <ul class="sitemap__list">
                 <li>
-                    <a href="#">Animation</a>
+                    <a class="link__footer" href="#">Animation</a>
                 </li>
                 <li>
-                    <a href="#">Design</a>
+                    <a class="link__footer" href="#">Design</a>
                 </li>
                 <li>
-                    <a href="#">Illustration</a>
+                    <a class="link__footer" href="#">Illustration</a>
                 </li>
                 <li>
-                    <a href="#">Programming</a>
+                    <a class="link__footer" href="#">Programming</a>
                 </li>
                 <li>
-                    <a href="#">Photo & Film</a>
+                    <a class="link__footer" href="#">Photo & Film</a>
                 </li>
                 <li>
-                    <a href="#">Marketing</a>
+                    <a class="link__footer" href="#">Marketing</a>
                 </li>
             </ul>
         </div>
@@ -241,10 +251,10 @@
             </h6>
             <ul class="sitemap__list">
                 <li>
-                    <a href="#">All Teachers</a>
+                    <a class="link__footer" href="#">All Teachers</a>
                 </li>
                 <li>
-                    <a href="#">Become a Teacher</a>
+                    <a class="link__footer" href="#">Become a Teacher</a>
                 </li>
             </ul>
         </div>
@@ -254,13 +264,13 @@
             </h6>
             <ul class="sitemap__list">
                 <li>
-                    <a href="#">Blog</a>
+                    <a class="link__footer" href="#">Blog</a>
                 </li>
                 <li>
-                    <a href="#">About us</a>
+                    <a class="link__footer" href="#">About us</a>
                 </li>
                 <li>
-                    <a href="#">FAQ</a>
+                    <a class="link__footer" href="#">FAQ</a>
                 </li>
             </ul>
         </div>
@@ -270,21 +280,21 @@
             </h6>
             <ul class="sitemap__list">
                 <li>
-                    <a href="#">English</a>
+                    <a class="link__footer" href="#">English</a>
                 </li>
                 <li>
-                    <a href="#">French</a>
+                    <a class="link__footer" href="#">French</a>
                 </li>
                 <li>
-                    <a href="#">Russian</a>
+                    <a class="link__footer" href="#">Russian</a>
                 </li>
             </ul>
         </div>
         <div class="copyright">
-            <a href="#">
+            <a class="copy__footer" href="#">
                 Policy privacy
             </a>
-            <p>
+            <p class="copy__footer">
                 Copyright 2022. All rights reserved
             </p>
         </div> 
