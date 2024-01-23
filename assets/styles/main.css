@@ -88,6 +88,7 @@ body{
 }
 
 .footer{
+    display: flex;
     background-color:#19191C;
     padding-top: 68px;
     padding-left: 240px;
