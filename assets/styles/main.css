@@ -77,16 +77,110 @@ body{
 .offer{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 0 0 230px;
+    background: url(../img/person-1.png) 100% 100% no-repeat;
 }
 
 .offer__holder{
     width: 648px;
+    padding-top: 80px;
+    background-image: url(../img/Ellipse_1.png) 100% 100% no-repeat;
 }
+
+.offer__link{
+    font-weight: 700;
+    text-decoration: none;
+    color: #504DEE;
+}
+
 .offer__title{
     font-size: 58px;
     line-height: 70px;
+    font-weight: 700;
+    margin: 0 0 18px;
+}
+.offer__description{
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 62px;
 }
 
+.button{
+    background: #504DEE;
+    color: #FBFBFC;
+    border: none;
+    padding: 16px 37px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0 0 110px;
+}
+
+.offer__sale{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0;
+}
+
+.offer__time{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.offer__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    position: relative;
+}
+.offer__item{
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+.offer__marketer{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.offer__illustrator{
+    position: absolute;
+    top: -60px;
+    right: 220px;
+}
+.offer__animator{
+    position: absolute;
+    top: -30px;
+    right: 200px;
+}
+.offer__programmer{
+    position: absolute;
+    top: 50px;
+    right: 120px;
+}
+.offer__designer{
+    position: absolute;
+    top: -60px;
+    right: 220px;
+}
+.offer__photographer{
+    position: absolute;
+    top: -30px;
+    right: 200px;
+}
+.learn{
+    background: #19191C;
+    color: #FBFBFC;
+    padding: 168px 0 0;
+}
 .footer{
     display: flex;
     background-color:#19191C;
